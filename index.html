@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Form Builder</title>
+        </head>
+        <body>
+            <div class="container">
+                <h1> Form builder</h1>
+            
+        <form >
+            <label for="Name">Add Label Name</label>
+            <input type="text" id="text" placeholder="Enter Label name" required>
+            <label for="input-type">select Input-Type</label>
+        
+            <select id="input-type" placeholder="Enter Label name" required>
+                <option value="check-box">check-box</option>
+                <option value="number">number</option>
+                <option value="button">button</option>
+                <option value="color">color</option>
+                <option value="Date">Date</option>
+                <option value="Email">Email</option>
+                <option value="File">File</option>
+                <option value="radio">radio</option>
+                <option value="text">text</option>
+                <option value="password">password</option>
+                <option value="range">range</option>
+                <option value="url">url</option>
+            </select>
+            <button type="button" onclick="AddField()">Add-Field</button>
+
+        </form>
+    </div>
+        <div class="container">
+                <h1> Form Preview</h1>
+                <form id="Pre">
+
+                </form>
+            </div>
+        <script src="form.js"> </script>
+    </body>
+</html>
